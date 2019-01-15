@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1，shrink-to-fit=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>hello 瘦瘦</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+    </style>
+</head>
+<link rel="stylesheet" href="personal.css">
+<body>
+<div id="box">
+    <ul id="top">
+        <li id="l1"> < 返回</li>
+        <li id="l2">个人中心</li>
+    </ul>
+
+    <div id="center">
+        <img src="img/images/pesonal1_02.png" alt="">
+        <ul id="ul1">
+            <li>😊订单</li>
+            <li>💎收藏</li>
+            <li>🤙推荐</li>
+        </ul>
+        <ul id="ul2">
+            <li id="l3">修改个人资料 <span> ></span></li>
+            <li>修改密码 <span> ></span></li>
+        </ul>
+
+        <div id="div1">声音推送通知</div>
+
+        <ul id="ul3">
+            <li>猜你喜欢 <span> ></span></li>
+            <li>附近热门 <span> ></span></li>
+            <li>推荐商家 <span> ></span></li>
+            <li>设置 <span> ></span></li>
+        </ul>
+
+    </div>
+        <div>
+            <ul id="bottom">
+                <li>首页</li>
+                <li>商家</li>
+                <li>购物车</li>
+                <li>个人中心</li>
+            </ul>
+        </div>
+
+</div>
+</body>
+<script>
+    (function (win,doc) {
+        function change(){
+            doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/375+'px';
+        }
+        change();
+        win.addEventListener('resize',change,false)
+    })(window,document);
+</script>
+</html>
