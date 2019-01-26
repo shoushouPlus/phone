@@ -1,0 +1,140 @@
+html {
+  font-size: 20 px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#div1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#div1 #div2 {
+  height: 2.25rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+}
+#div1 #img1 {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-top: 0.25rem;
+  margin-left: 0.5rem;
+  border-radius: 50%;
+}
+#div1 p {
+  flex: 2;
+  height: 1.75rem;
+  line-height: 2.25rem;
+  padding-left: 0.75rem;
+  text-align: left;
+}
+#div1 #div3 {
+  height: 1.25rem;
+  width: 8.75rem;
+  margin-top: 0.5rem;
+  position: relative;
+}
+#div1 #div3 #s1 {
+  position: absolute;
+  top: 0.325rem;
+  left: 0.375rem;
+  color: #ccc;
+}
+#div1 #div3 #t1 {
+  border-radius: 20px;
+  height: 1.25rem;
+  width: 8.75rem;
+  padding-left: 1.25rem;
+  border: 1px solid #ccc;
+}
+#div1 input::placeholder {
+  color: #ccc;
+  font-size: 0.5rem;
+  padding-left: 0.25rem;
+}
+#div1 :nth-child(4) {
+  height: 1.75rem;
+  line-height: 2.25rem;
+  flex: 1;
+  text-align: center;
+}
+#div1 #ul1 {
+  height: 100%;
+  flex: 1;
+}
+#div1 #ul1 li {
+  height: 2.5rem;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  margin-bottom: 5px;
+}
+#div1 #ul1 li .logo {
+  font-size: 1.5rem;
+  margin-top: 0.375rem;
+  margin-left: 0.5rem;
+}
+#div1 #ul1 li .title {
+  position: absolute;
+  top: -0.25rem;
+  left: 2.5rem;
+}
+#div1 #ul1 li .time {
+  position: absolute;
+  top: 0.625rem;
+  left: 2.5rem;
+  font-size: 0.5rem;
+  color: #a8a8a8;
+}
+#div1 #ul1 li .default {
+  position: absolute;
+  top: 0.125rem;
+  right: 0.825rem;
+  color: red;
+}
+#div1 #div4 {
+  width: 100%;
+  height: 100%;
+  background: #666666;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  display: none;
+}
+#div1 #div4 div {
+  width: 11.25rem;
+  height: 6.25rem;
+  background: white;
+  opacity: 1;
+  z-index: 20;
+  margin: 200px auto;
+  position: relative;
+  border-radius: 5px;
+}
+#div1 #div4 div :nth-child(1) {
+  font-size: 1rem;
+  position: absolute;
+  top: 0.75rem;
+  left: 1.375rem;
+  text-align: center;
+}
+#div1 #div4 div :nth-child(2) {
+  font-size: 0.75rem;
+  position: absolute;
+  top: 3.5rem;
+  left: 4.25rem;
+  color: #00a37c;
+}
+#div1 #div4 div :nth-child(3) {
+  font-size: 0.75rem;
+  position: absolute;
+  top: 3.5rem;
+  right: 2.125rem;
+  color: #00a37c;
+}
+/*# sourceMappingURL=home.css.map */

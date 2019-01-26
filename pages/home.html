@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello 瘦瘦</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1，shrink-to-fit=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../dist/bootstrap-3.3.7-dist/css/bootstrap.css">
+</head>
+<body>
+    <div id="div1">
+        <div id="div2">
+            <img src="../image/hx.jpg" alt="" id="img1">
+            <p>全部文档</p>
+            <div id="div3">
+                <span class="glyphicon glyphicon-search" id="s1"></span>
+                <input type="text" id="t1" placeholder="请输入关键字">
+            </div>
+
+            <span class="glyphicon glyphicon-plus"></span>
+        </div>
+
+        <ul id="ul1">
+            <li>
+               <span class="glyphicon glyphicon-file logo"></span>
+                <p class="title">标题名</p>
+                <p class="time">时间</p>
+                <span class="glyphicon glyphicon-trash default"></span>
+            </li>
+            <li>
+                <span class="glyphicon glyphicon-file logo"></span>
+                <p class="title">标题名</p>
+                <p class="time">时间</p>
+                <span class="glyphicon glyphicon-trash default"></span>
+            </li>
+            <li>
+                <span class="glyphicon glyphicon-file logo"></span>
+                <p class="title">标题名</p>
+                <p class="time">时间</p>
+                <span class="glyphicon glyphicon-trash default"></span>
+            </li>
+
+        </ul>
+
+        <!--删除-->
+        <div id="div4">
+            <div>
+                <p>确定删除此文档</p>
+                <p class="hide">取消</p>
+                <p class="sure">确定</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/home.js"></script>
+<script src="../dist/jquery-3.3.1.js"></script>
+<script>
+    (function (win,doc) {
+        function change(){
+            doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/375+'px';
+        }
+        change();
+        win.addEventListener('resize',change,false)
+    })(window,document);
+</script>
+</html>
